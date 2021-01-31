@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dix-cli = {path = "."}
+
+[dev-packages]
+dix-cli = {extras = ["dev"], path = "."}
+
+[scripts]
+lint = "bash run-lint.sh"
+
+[requires]
+python_version = "3.8"
