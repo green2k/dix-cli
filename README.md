@@ -1,1 +1,1 @@
-# dix-cli
+# dix-cli (DEPRECATED)
